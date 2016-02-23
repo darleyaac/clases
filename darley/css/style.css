@@ -1,0 +1,70 @@
+body{
+	background-image: url("../fotos/paisaje.jpg");
+}
+header{
+	background: turquoise;
+}
+header h1{
+	text-align: center;
+}
+
+nav{ 	background: black;
+}
+nav ul li{
+	display: inline-block;
+	background: white;
+}
+nav ul li{
+	padding: 5px 10px;
+}
+nav ul li a{
+	text-decoration: none;
+}
+nav ul li:hover{
+	background: turquoise;
+}
+nav ul li a:link, nav ul li a:visited{
+	color: blue;
+}
+aside{
+	background: purple;
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+section{
+	background: pink;
+	opacity: 0.7;
+	width: 80%;
+	display: inline-block;
+} 
+section p{
+		text-align: justify;
+}
+section h1{
+	text-align: center;
+}
+.login{
+	width: 100%;
+}
+fieldset{
+	width: 30%;
+	margin: 80px auto;
+	background: #fff;
+}
+legend{ 
+	background: purple;
+	color: white;
+	padding: 2px 4px;
+	border-radius: 0px 0px 5px 5px;
+}
+.label{
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 5px;
+
+}
+footer{
+	background: purple;
+	color: white;

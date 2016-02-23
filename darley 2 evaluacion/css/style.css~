@@ -1,0 +1,61 @@
+body{
+	background-image: url("../fotos/fondo.jpg");
+}
+header h1{
+	background: green;
+	text-align: center;
+}
+nav{
+	background: orange;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+nav ul li:hover{
+	background: white;
+}
+nav ul li a:link, nav ul li a:visited{
+	color: gray;
+}
+aside{ 
+	background: green;
+	width: 20%;
+	float: left;
+}
+section{
+	background: orange;
+	width: 80%;
+	float: left;
+	text-align: justify;
+
+}
+section h3{
+	text-align: center;
+}
+.amarillo{
+	background: yellow;
+}
+footer{
+	background: green;
+	clear: both;
+}
+.login{
+	width: 100%;
+}
+fieldset{
+	width:40%
+	background: blue; 
+	margin: 80px auto;
+}
+legen{
+	background: blue;
+	color: white;
+	padding: 2px 4px;
+}
+.label{
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 5px;
+}

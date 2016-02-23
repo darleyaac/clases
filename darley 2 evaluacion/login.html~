@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>Lorem Ipsum</h1>
+			</header>
+			<section class="login">
+					<fieldset>
+						<legend> login </legend>
+							<form action="index.html" method="POST" autocomplete="off">
+						<div>
+							<label class="label">usuario</label>
+							<input type="text" name="user" value="" title="nombre de usuario" placeholder="usuario123">
+						</div>
+						<div>
+							<label class="label">contraseña</label>
+							<input type="text" name="pass" value="" title="">
+						</div>
+							<input type="submit" value="ingresar">
+					</fieldset>
+				</form>
+			</section>
+			<footer>
+				<ul>
+					<li> diseñado por: </li>
+					<li> ilustracion </li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>
