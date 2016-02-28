@@ -33,11 +33,7 @@ section{
 	background: pink;
 	width: 80%;
 	display: inline-block;
-	text-align: justify;
 } 
-section h1{
-	text-align: center;
-}
 .login{
 	width: 100%;
 }
